@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.7.0/pixi.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top clearfix">
+            <div class="count"></div>
+            <div class="square"></div>
+        </div>
+
+        <div class="main"> </div>
+
+        <ul class="bottom clearfix">
+            <li class="btn_minus" id="countMinus">
+                <i class="fas fa-minus"></i>
+            </li>
+            <li class="btn_plus" id="countPlus">
+                <i class="fas fa-plus"></i>
+            </li>
+            <li class="shapes_per_sec">1</li>
+            <li class="btn_minus" id="gravityMinus">
+                <i class="fas fa-minus"></i>
+            </li>
+            <li class="btn_plus" id="gravityPlus">
+                <i class="fas fa-plus"></i>
+            </li>
+            <li class="gravity_value">1</li>
+        </ul>
+    </div>
+    <script src="./dist/main.js"></script>
+</body>
+
+</html>
